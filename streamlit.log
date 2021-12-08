@@ -1,0 +1,32 @@
+Traceback (most recent call last):
+  File "C:\Users\setze\.virtualenvs\python-data-assignment-main-zXi6Rhkg\lib\site-packages\pytz_deprecation_shim\_compat_py3.py", line 5, in <module>
+    import zoneinfo
+ModuleNotFoundError: No module named 'zoneinfo'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\setze\anaconda3\lib\runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "c:\users\setze\anaconda3\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\setze\.virtualenvs\python-data-assignment-main-zXi6Rhkg\Scripts\streamlit.exe\__main__.py", line 4, in <module>
+  File "C:\Users\setze\.virtualenvs\python-data-assignment-main-zXi6Rhkg\lib\site-packages\streamlit\__init__.py", line 76, in <module>
+    from streamlit.delta_generator import DeltaGenerator as _DeltaGenerator
+  File "C:\Users\setze\.virtualenvs\python-data-assignment-main-zXi6Rhkg\lib\site-packages\streamlit\delta_generator.py", line 73, in <module>
+    from streamlit.elements.legacy_data_frame import LegacyDataFrameMixin
+  File "C:\Users\setze\.virtualenvs\python-data-assignment-main-zXi6Rhkg\lib\site-packages\streamlit\elements\legacy_data_frame.py", line 23, in <module>
+    import tzlocal
+  File "C:\Users\setze\.virtualenvs\python-data-assignment-main-zXi6Rhkg\lib\site-packages\tzlocal\__init__.py", line 4, in <module>
+    from tzlocal.win32 import (
+  File "C:\Users\setze\.virtualenvs\python-data-assignment-main-zXi6Rhkg\lib\site-packages\tzlocal\win32.py", line 2, in <module>
+    import pytz_deprecation_shim as pds
+  File "C:\Users\setze\.virtualenvs\python-data-assignment-main-zXi6Rhkg\lib\site-packages\pytz_deprecation_shim\__init__.py", line 16, in <module>
+    from . import helpers
+  File "C:\Users\setze\.virtualenvs\python-data-assignment-main-zXi6Rhkg\lib\site-packages\pytz_deprecation_shim\helpers.py", line 5, in <module>
+    from . import _common, _compat
+  File "C:\Users\setze\.virtualenvs\python-data-assignment-main-zXi6Rhkg\lib\site-packages\pytz_deprecation_shim\_compat.py", line 6, in <module>
+    from . import _compat_py3 as _compat_impl
+  File "C:\Users\setze\.virtualenvs\python-data-assignment-main-zXi6Rhkg\lib\site-packages\pytz_deprecation_shim\_compat_py3.py", line 7, in <module>
+    from backports import zoneinfo
+ModuleNotFoundError: No module named 'backports'
